@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Excercise 01</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="formbox">
+        <h1>Registration Form</h1>
+        <form action="code.php" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Your first name">
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Your last name">
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Your username">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your password">
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <label for="academic_year">Academic Year:</label>
+            <select id="academic_year" name="academic_year">
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+            </select>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email address">
+            <br>
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+            <br>
+            <input type="submit" name="registerbtn" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
